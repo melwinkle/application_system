@@ -1,0 +1,108 @@
+body {
+	background-color:rgb(255, 255, 255);
+
+}
+
+.header{
+    padding: 20px;
+    text-align: center;
+    background:   steelblue;
+    color: white;
+    width:98.7%;
+    margin-bottom:50px;
+    margin-top: 0;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: medium;
+}
+
+.app-form {
+    border: 2px;
+    font-family: cursive;
+    font-size: medium;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:8%;
+    box-shadow: 0 2px 5px rgba(54, 28, 28, 0.3);
+	overflow: hidden;
+    width : 50%;
+    background :white;
+
+}
+.app-form .form-det{
+    margin: 6px;
+    padding: 5px;
+    background: white;
+    align-self: center;
+    padding:6px;
+    font-weight: bolder;
+    border-radius: 5px;
+    min-height:50%;
+
+}
+.app-form  .app-header{
+    padding:10px;
+    background:  steelblue;
+    flex: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color:white;
+
+}
+
+.app-form .form-det input{
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 80%;
+    padding: 9px 8px;
+    flex: 5 2;
+    margin-top:5px;
+    margin-left:15px;
+}
+
+
+
+.app-form .form-det label{
+    padding:10px 9px;
+    flex: 5 2;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+
+.app-form .form-det select{
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 84%;
+    padding: 10px 8px;
+    flex: 5 2;
+    margin-top:5px;
+    margin-left:15px;
+}
+
+
+.info-form{
+    align-self:center;
+}
+
+
+.info-form p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.info-form button{
+    background: steelblue;
+    align-self: center;
+    border: none;
+    border-radius: 12px;
+    padding:15px;
+    margin-left:35%;
+    margin-top: 2%;
+    width:30%;
+    color:white;
+}
+

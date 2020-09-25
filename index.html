@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="main.css">
+   
+</head>
+<body>
+    <div class="header">
+        <h1>LAPS</h1>
+    
+    </div>
+
+    <div class="app-form">
+        <div class="app-header">
+            <p>SIGN UP</p>
+        </div>
+
+        <form class="form-det" action="info.html" >
+            
+            <div class="form-det">
+                <label for="fname">First Name</label>
+                <input type="text" name="First" id="fname">
+            </div>
+            <div class="form-det">
+                <label for="lname">Last Name</label>
+                <input type="text" name="Last" id="lname">
+            </div>
+            <div class="form-det">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="Birth" id="dob">
+            </div>
+            <div class="form-det">
+                <label for="gender">Gender</label><br>
+                <select name="Gender" id="gender">
+                    <option value="Select...." ></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-det">
+                <label for="mail">Email</label><br>
+                <input type="email" name="Mail" id="mail">
+            </div>
+
+            <div class="form-det">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="Phone" id="phone">
+            </div>
+
+            <div class="form-det">
+                <input style="background:steelblue; border:none; border-radius: 12px; padding: 15px;width: 40%; color:white;margin-left: 30%;" type="submit" value="SUBMIT" name="button" onclick="trans_det()">
+            </div>
+            <script type="text/javascript" src="app.js"  ></script>
+        </form>
+    </div>
+</body>
+</html>
